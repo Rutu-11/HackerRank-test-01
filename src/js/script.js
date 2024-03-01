@@ -25,19 +25,19 @@ pushButton.addEventListener('click', function(){
 
 emptyButton.addEventListener('click', function(){
   if(stack.length == 0){
-    alert("Yes, Stack is empty!")
+    alert("Yes, Stack is empty")
   }
   else{
-    alert("Yes, Stack is not empty!")
+    alert("No, Stack is not empty")
   }
 })
 
 peekButton.addEventListener('click', function(){
   if(stack.length == 0){
-    alert("operation not allowed")
+    alert("Operation not allowed!")
   }
   else{
-    alert("Top item:"+ stack[stack.length-1]);
+    alert(stack[stack.length-1]);
   }
 })
 
