@@ -37,7 +37,7 @@ peekButton.addEventListener('click', function(){
     alert("Operation not allowed!")
   }
   else{
-    alert("Top Value is:"+stack[stack.length-1]);
+    alert(`Top Value is:${stack[stack.length-1]}`);
   }
 })
 
