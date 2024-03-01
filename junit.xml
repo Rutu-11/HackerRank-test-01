@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="6" failures="1" errors="0" time="4.02">
-  <testsuite name="stack operation test" errors="0" failures="1" skipped="0" timestamp="2024-03-01T08:59:44" time="3.956" tests="6">
-    <testcase classname="stack operation test Clicking on the push button should push the item to the bottom of the stack board" name="stack operation test Clicking on the push button should push the item to the bottom of the stack board" time="0.463">
+<testsuites name="jest tests" tests="6" failures="1" errors="0" time="3.953">
+  <testsuite name="stack operation test" errors="0" failures="1" skipped="0" timestamp="2024-03-01T09:00:50" time="3.892" tests="6">
+    <testcase classname="stack operation test Clicking on the push button should push the item to the bottom of the stack board" name="stack operation test Clicking on the push button should push the item to the bottom of the stack board" time="0.457">
     </testcase>
-    <testcase classname="stack operation test Without any input clicking on push button should show output “Please input a value”" name="stack operation test Without any input clicking on push button should show output “Please input a value”" time="0.321">
+    <testcase classname="stack operation test Without any input clicking on push button should show output “Please input a value”" name="stack operation test Without any input clicking on push button should show output “Please input a value”" time="0.309">
     </testcase>
-    <testcase classname="stack operation test Peek button click should show an output “operation not allowed” if the stack board is empty." name="stack operation test Peek button click should show an output “operation not allowed” if the stack board is empty." time="0.285">
+    <testcase classname="stack operation test Peek button click should show an output “operation not allowed” if the stack board is empty." name="stack operation test Peek button click should show an output “operation not allowed” if the stack board is empty." time="0.339">
     </testcase>
-    <testcase classname="stack operation test Clicking on the “empty” button should show output whether the stack is empty or not." name="stack operation test Clicking on the “empty” button should show output whether the stack is empty or not." time="0.308">
+    <testcase classname="stack operation test Clicking on the “empty” button should show output whether the stack is empty or not." name="stack operation test Clicking on the “empty” button should show output whether the stack is empty or not." time="0.337">
     </testcase>
-    <testcase classname="stack operation test Clicking on the peek button should return the item on the top of the stack, without removing it." name="stack operation test Clicking on the peek button should return the item on the top of the stack, without removing it." time="0.347">
+    <testcase classname="stack operation test Clicking on the peek button should return the item on the top of the stack, without removing it." name="stack operation test Clicking on the peek button should return the item on the top of the stack, without removing it." time="0.271">
       <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
 
 Expected: &quot;Top Value is: item2&quot;
-Received: &quot;item2&quot;
 
-Number of calls: 1
+Number of calls: 0
     at Object.toHaveBeenCalledWith (/projects/challenge/test/test.js:94:30)
     at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
     </testcase>
-    <testcase classname="stack operation test While pushing an item if stack board is full should show the output “Stack was already full!” and there is no change in the existing stack." name="stack operation test While pushing an item if stack board is full should show the output “Stack was already full!” and there is no change in the existing stack." time="0.31">
+    <testcase classname="stack operation test While pushing an item if stack board is full should show the output “Stack was already full!” and there is no change in the existing stack." name="stack operation test While pushing an item if stack board is full should show the output “Stack was already full!” and there is no change in the existing stack." time="0.262">
     </testcase>
   </testsuite>
 </testsuites>
