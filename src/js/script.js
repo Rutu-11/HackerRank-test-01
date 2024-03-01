@@ -34,7 +34,7 @@ emptyButton.addEventListener('click', function(){
 
 peekButton.addEventListener('click', function(){
   if(stack.length == 0){
-    alert("Operation not allowed")
+    alert("operation not allowed")
   }
   else{
     alert("Top item:"+ stack[stack.length-1]);
